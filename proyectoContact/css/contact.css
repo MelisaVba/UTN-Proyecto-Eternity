@@ -1,0 +1,185 @@
+@import url(normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+:root{
+  --color-primary: #171d39;
+  --color-secodary: #124868;
+  --color-terciary: #20b5d9;
+  --color-quaternary: #e2e2e2;
+  --color-quinary: #f1f4f6;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Serif", serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* HEADER */
+
+    /* HEADER 1º */
+header{
+  box-shadow: 0px 0px 20px -5px black;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.barra1{
+  background-color: var(--color-primary);
+  justify-content: space-between;
+  height: 30px;
+  position: relative;
+}
+
+.imglenguage{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.imgbarra1{
+  height: 30px;
+  margin-right: 20px;
+  width: 20px;
+}
+
+    /* HEADER 2º */
+
+header nav{
+  background-image: url(../img/backgroundRobot1.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 15px;
+  justify-content: space-between;
+  position: flex;
+}
+
+nav .nav__link{
+  color: var(--color-quaternary);
+}
+
+div .nav__logo{
+  border-radius: 50%;
+  height: 90px;
+  margin-left: 25%;
+}
+
+nav ul{
+  display: inline-flex;
+  gap: 20px;
+  margin-right: 3px;
+  margin-top: 30px;
+  padding-right: 1%;
+}
+
+nav ul li .bi-globe-central-south-asia{
+  color: #a169d2de;
+  margin-right: 2px;
+}
+
+
+
+/* MAIN FORMULARIO*/
+
+    /* FORMULARIO 1 */
+
+main{
+  display: flex;
+}
+
+.datos{
+  background-image: url(../img/backgroundContacto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 4px 20px -5px black;
+  border-radius: 20px;
+  color: var(--color-quinary);
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  height: 700px;
+  justify-content:space-around  ;
+  margin: 50px auto; 
+  width: 80%;
+}
+
+section article{
+  display: inline-block;
+  margin: 20px;
+  width: 400px;
+}
+
+article h4{
+  margin-bottom: 20px;
+}
+
+.buttons1{
+  border: 0;
+  display: flex;
+  display: inline-block;
+  justify-content: center;
+  margin-top: 30px;
+  top: 95%;
+  width: 100%;
+}
+
+.buttons1 button{
+  background-color: #00669f;
+  box-shadow: 0 0 25px rgb(150, 203, 247);
+  border: 0;
+  color: var(--color-quinary);
+  font-size: 13px;
+  margin-right: 60px;
+  padding: 10px 20px ;
+  text-transform: uppercase;
+}
+
+button:hover{
+  box-shadow: 0 0 5px rgb(59, 160, 243), 0 0 10px rgb(59, 160, 243),
+      0 0 20px rgb(59, 160, 243), 0 0 50px rgb(59, 160, 243);
+}
+
+label, select, input{
+  display: block;
+  margin-top: 2px;
+  padding: 1px;
+}
+
+textarea {
+  width: 100%;
+}
+
+
+
+/*FOOTER */
+
+footer{
+  background-image: url(../img/backgroundFooter.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55px;
+}
+
+footer div h3{
+  color: var(--color-quaternary);
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left:25px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+footer div .bi{
+  color: white;
+  font-size: 17px;
+  margin: 2px;
+}
