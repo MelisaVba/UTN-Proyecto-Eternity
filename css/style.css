@@ -105,20 +105,13 @@ main .carousel-inner .d-block{
 
 /* USER DESIGN */
 
-#userDesign{
-  width: 100%;
-  height: 70%;
+#imgUserDesign{
+  width: 13%; 
+  height: 22%;
   position: fixed;
   z-index: 10000;
-}
-
-#imgUserDesign{
-  border-radius: 50%;
-  display: inline-block;
-  height: 28%;
   margin-left: 88%;
-  margin-top: 30%;
-  width: 13%; 
+  margin-top: 29%;
 }
 
 
